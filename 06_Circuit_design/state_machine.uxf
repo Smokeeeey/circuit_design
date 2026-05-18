@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>640</x>
+      <y>400</y>
+      <w>192</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>CHARGE
+--
+*/on state*
+red led
+current fix
+
+
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>376</x>
+      <y>400</y>
+      <w>192</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>STORAGE
+--
+*/on state*
+blue led
+
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>640</x>
+      <y>600</y>
+      <w>192</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>FULL
+--
+*/on state*
+green led
+tension fix
+
+
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>464</y>
+      <w>168</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+T° HIGH
+</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1096</x>
+      <y>448</y>
+      <w>192</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>SECURITY
+--
+*/on entry*
+shut down source
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>488</y>
+      <w>168</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+T° LOW
+</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>512</y>
+      <w>168</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Vbat &gt; 4,2V
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>536</y>
+      <w>168</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Vbat &lt; 2,8V
+</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>560</y>
+      <w>168</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Bat inverted
+</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>520</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Vbat &gt; 4V
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>464</x>
+      <y>520</y>
+      <w>192</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Button storage</panel_attributes>
+    <additional_attributes>220.0;200.0;220.0;140.0;10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>464</x>
+      <y>272</y>
+      <w>744</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+if button = storage</panel_attributes>
+    <additional_attributes>910.0;220.0;910.0;20.0;10.0;20.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>472</y>
+      <w>24</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>824</x>
+      <y>472</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;100.0;20.0;100.0;30.0;160.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>824</x>
+      <y>512</y>
+      <w>144</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;210.0;100.0;210.0;100.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>520</y>
+      <w>536</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>650.0;30.0;620.0;30.0;620.0;340.0;10.0;340.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>328</y>
+      <w>472</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+if button = charge</panel_attributes>
+    <additional_attributes>570.0;150.0;570.0;20.0;10.0;20.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>
