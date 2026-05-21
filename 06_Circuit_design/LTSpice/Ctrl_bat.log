@@ -1,6 +1,6 @@
 LTspice 24.1.9 for Windows
-Circuit: C:\Users\ploic\Desktop\HES\Deuxieme_annee\semestre2\06_Circuit_design\LTSpice\Ctrl_bat.net
-Start Time: Wed May  6 13:05:53 2026
+Circuit: D:\projects\circuit_design\06_Circuit_design\LTSpice\Ctrl_bat.net
+Start Time: Wed May 20 16:51:29 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -26,9 +26,9 @@ Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 3.216 seconds.
+Total elapsed time: 0.688 seconds.
 
 Files loaded:
-C:\Users\ploic\Desktop\HES\Deuxieme_annee\semestre2\06_Circuit_design\LTSpice\Ctrl_bat.net
+D:\projects\circuit_design\06_Circuit_design\LTSpice\Ctrl_bat.net
 C:\Users\ploic\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
 
